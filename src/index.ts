@@ -1,6 +1,7 @@
 import express, { Request, Response } from 'express';
 
 const app = express();
+app.disable('x-powered-by');
 const PORT = 3000;
 const rootPath = '/';
 const message = 'Hello World!';
